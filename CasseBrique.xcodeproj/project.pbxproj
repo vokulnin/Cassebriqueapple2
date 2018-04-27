@@ -14,6 +14,9 @@
 		366CAF4F2084B7340083EA73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 366CAF4D2084B7340083EA73 /* LaunchScreen.storyboard */; };
 		366CAF5A2084B7340083EA73 /* CasseBriqueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366CAF592084B7340083EA73 /* CasseBriqueTests.swift */; };
 		366CAF652084B7340083EA73 /* CasseBriqueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366CAF642084B7340083EA73 /* CasseBriqueUITests.swift */; };
+		3694F49F208C903C00FB5515 /* ResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3694F49E208C903B00FB5515 /* ResultController.swift */; };
+		36B1AE382088A4DA0006DA61 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B1AE372088A4DA0006DA61 /* Test.swift */; };
+		36B5B6142087596E008C3D71 /* Raquette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B5B6132087596E008C3D71 /* Raquette.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		366CAF602084B7340083EA73 /* CasseBriqueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CasseBriqueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		366CAF642084B7340083EA73 /* CasseBriqueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasseBriqueUITests.swift; sourceTree = "<group>"; };
 		366CAF662084B7340083EA73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3694F49E208C903B00FB5515 /* ResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultController.swift; sourceTree = "<group>"; };
+		36B1AE372088A4DA0006DA61 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		36B5B6132087596E008C3D71 /* Raquette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Raquette.swift; path = ../Raquette.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +103,11 @@
 		366CAF432084B7340083EA73 /* CasseBrique */ = {
 			isa = PBXGroup;
 			children = (
+				36B5B6132087596E008C3D71 /* Raquette.swift */,
 				366CAF442084B7340083EA73 /* AppDelegate.swift */,
 				366CAF462084B7340083EA73 /* ViewController.swift */,
+				3694F49E208C903B00FB5515 /* ResultController.swift */,
+				36B1AE372088A4DA0006DA61 /* Test.swift */,
 				366CAF482084B7340083EA73 /* Main.storyboard */,
 				366CAF4B2084B7340083EA73 /* Assets.xcassets */,
 				366CAF4D2084B7340083EA73 /* LaunchScreen.storyboard */,
@@ -259,6 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36B5B6142087596E008C3D71 /* Raquette.swift in Sources */,
+				36B1AE382088A4DA0006DA61 /* Test.swift in Sources */,
+				3694F49F208C903C00FB5515 /* ResultController.swift in Sources */,
 				366CAF472084B7340083EA73 /* ViewController.swift in Sources */,
 				366CAF452084B7340083EA73 /* AppDelegate.swift in Sources */,
 			);
